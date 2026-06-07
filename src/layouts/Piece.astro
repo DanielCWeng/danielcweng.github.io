@@ -1,0 +1,162 @@
+---
+import Base from './Base.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  piece: CollectionEntry<'pieces'>;
+}
+
+const { piece } = Astro.props;
+const { title, date, tags, status, threat_level, summary, pdf, tex } = piece.data;
+
+const dateStr = date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<Base title={title} description={summary}>
+  <a href="/" class="back-link">← All pieces</a>
+
+  <article>
+    <header class="article-header">
+      <h1 class="article-title">{title}</h1>
+
+      <div class="article-meta">
+        <time datetime={date.toISOString().substring(0, 10)}>{dateStr}</time>
+
+        <span
+          class={`status-badge ${status}`}
+          aria-label={`Status: ${status}`}
+        >
+          {status}
+        </span>
+
+        {threat_level !== undefined && (
+          <span class="threat-level">
+            Threat level: <span>{threat_level}</span>
+          </span>
+        )}
+
+        {tags.length > 0 && (
+          <div class="piece-tags" style="margin-top: 0;">
+            {tags.map(tag => (
+              <span class="tag">{tag}</span>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {summary && (
+        <blockquote class="article-summary">{summary}</blockquote>
+      )}
+
+      {(pdf || tex) && (
+        <div class="resource-links">
+          {pdf && (
+            <a href={pdf} class="pdf-download" target="_blank" rel="noopener noreferrer">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              Download PDF
+            </a>
+          )}
+          {tex && (
+            <a href={tex} class="pdf-download" target="_blank" rel="noopener noreferrer">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 6h16"/>
+                <path d="M4 12h16"/>
+                <path d="M4 18h16"/>
+              </svg>
+              View TeX
+            </a>
+          )}
+        </div>
+      )}
+    </header>
+
+    {pdf && (
+      <div class="pdf-embed-wrapper">
+        <iframe src={pdf} class="pdf-embed" title={title}></iframe>
+      </div>
+    )}
+
+    <div class="prose" id="article-body">
+      <slot />
+    </div>
+  </article>
+</Base>
+
+<script is:inline>
+  // Post-process: find "## Review Log" heading and wrap review entries
+  // in collapsible <details> elements for clean rendering
+  document.addEventListener('DOMContentLoaded', () => {
+    const body = document.getElementById('article-body');
+    if (!body) return;
+
+    // Find the review log h2
+    const headings = body.querySelectorAll('h2');
+    let reviewLogH2 = null;
+    for (const h of headings) {
+      if (h.textContent && h.textContent.trim() === 'Review Log') {
+        reviewLogH2 = h;
+        break;
+      }
+    }
+    if (!reviewLogH2) return;
+
+    // Collect everything after the Review Log h2
+    const reviewSection = document.createElement('section');
+    reviewSection.className = 'review-log-section';
+
+    const reviewTitle = document.createElement('p');
+    reviewTitle.className = 'review-log-title';
+    reviewTitle.textContent = 'Review Log';
+    reviewSection.appendChild(reviewTitle);
+
+    // Gather all nodes after the h2 up to body end
+    const nodes = [];
+    let curr = reviewLogH2.nextSibling;
+    while (curr) {
+      nodes.push(curr);
+      curr = curr.nextSibling;
+    }
+
+    // Group by h3 (each review entry starts with an h3)
+    let currentEntry = null;
+    let currentBody = null;
+
+    for (const node of nodes) {
+      if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'H3') {
+        currentEntry = document.createElement('div');
+        currentEntry.className = 'review-entry';
+
+        const label = document.createElement('p');
+        label.className = 'review-entry-label';
+        label.textContent = node.textContent;
+        currentEntry.appendChild(label);
+
+        currentBody = document.createElement('div');
+        currentBody.className = 'review-entry-body prose';
+        currentEntry.appendChild(currentBody);
+
+        reviewSection.appendChild(currentEntry);
+      } else if (currentBody) {
+        currentBody.appendChild(node.cloneNode(true));
+      }
+    }
+
+    // Remove original nodes from body
+    reviewLogH2.remove();
+    for (const node of nodes) {
+      if (node.parentNode) node.parentNode.removeChild(node);
+    }
+
+    // Append review section after the article prose
+    const article = body.closest('article') || body.parentNode;
+    article.appendChild(reviewSection);
+  });
+</script>

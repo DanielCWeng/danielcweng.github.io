@@ -1,0 +1,65 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const allPieces = await getCollection('pieces');
+const pieces = allPieces.sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+---
+
+<Base title="Daniel Weng — Analysis">
+  <p class="bio">Second-year Finance, Accounting &amp; Management student at Nottingham. Building <a href="https://polyleviathan.com/" target="_blank" rel="noopener noreferrer">Polyleviathan</a>, a prediction market analytics tool. I write about macro and geopolitics — how markets price risk, and where they get it wrong.</p>
+
+  <p class="section-label">Writing</p>
+
+  {pieces.length === 0 ? (
+    <div class="empty-state">
+      <p>No pieces published yet.</p>
+    </div>
+  ) : (
+    <ul class="piece-list">
+      {pieces.map(piece => {
+        const { title, date, tags, status, summary, pdf, tex } = piece.data;
+        const dateStr = date.toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric',
+        });
+        return (
+          <li class="piece-item">
+            <div class="piece-item-header">
+              <a href={`/pieces/${piece.id}/`} class="piece-title-link">
+                {title}
+              </a>
+              <span class={`status-badge ${status}`}>{status}</span>
+            </div>
+            <div class="piece-meta">
+              <time datetime={date.toISOString().substring(0, 10)}>{dateStr}</time>
+            </div>
+            {summary && <p class="piece-summary">{summary}</p>}
+            {(pdf || tex) && (
+              <div class="piece-resources">
+                {pdf && (
+                  <a href={pdf} class="piece-resource-link" target="_blank" rel="noopener noreferrer">
+                    Download PDF
+                  </a>
+                )}
+                {tex && (
+                  <a href={tex} class="piece-resource-link" target="_blank" rel="noopener noreferrer">
+                    View TeX
+                  </a>
+                )}
+              </div>
+            )}
+            {tags.length > 0 && (
+              <div class="piece-tags">
+                {tags.map(tag => <span class="tag">{tag}</span>)}
+              </div>
+            )}
+          </li>
+        );
+      })}
+    </ul>
+  )}
+</Base>

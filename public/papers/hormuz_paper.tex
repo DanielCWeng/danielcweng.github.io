@@ -1,0 +1,349 @@
+\documentclass[12pt,a4paper]{article}
+ 
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{abstract}
+\usepackage{microtype}
+\usepackage{charter}
+ 
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+ 
+% --- Colour palette: warm charcoal + muted red accent ---
+\definecolor{heading}{RGB}{35,35,40}
+\definecolor{accent}{RGB}{50, 80, 120} 
+\definecolor{subtext}{RGB}{110,110,115}
+\definecolor{boxbg}{RGB}{250,248,246}
+\definecolor{boxrule}{RGB}{200,195,190}
+\definecolor{ruleline}{RGB}{180,175,170}
+ 
+\hypersetup{
+  colorlinks=true,
+  linkcolor=accent,
+  citecolor=accent,
+  urlcolor=accent
+}
+ 
+% --- Header/footer ---
+\pagestyle{fancy}
+\setlength{\headheight}{25pt}
+\fancyhf{}
+\rhead{\textcolor{subtext}{\small Hormuz, Mines, and the Gulf}}
+\lhead{\textcolor{subtext}{\small Weng \textperiodcentered\ March 2026}}
+\rfoot{\textcolor{subtext}{\small \thepage}}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{ruleline}\leaders\hrule height \headrulewidth\hfill}}
+% Header rule retained
+
+% --- Section formatting ---
+\titlespacing{\section}{0pt}{2.5em}{1.2em}
+\titlespacing{\subsection}{0pt}{1.5em}{0.5em}
+\titleformat{\section}
+  {\large\bfseries\color{heading}}
+  {\Roman{section}.}{0.8em}{}[\vspace{-0.3em}{\color{ruleline}\rule{\textwidth}{0.3pt}}]
+ 
+\titleformat{\subsection}
+  {\normalsize\bfseries\color{heading}}
+  {}{0em}{}
+ 
+\titleformat{\subsubsection}
+  {\normalsize\itshape\color{subtext}}
+  {}{0em}{}
+ 
+% --- Summary/callout box ---
+\newtcolorbox{summarybox}{
+  colback=boxbg,
+  colframe=boxrule,
+  boxrule=0.4pt,
+  arc=1.5pt,
+  left=12pt,
+  right=12pt,
+  top=10pt,
+  bottom=10pt,
+  before skip=12pt,
+  after skip=12pt,
+  fontupper=\small
+}
+ 
+% --- Accent callout (for threat assessment etc.) ---
+\newtcolorbox{accentbox}{
+  colback=white,
+  colframe=accent,
+  boxrule=0.6pt,
+  leftrule=3pt,
+  arc=0pt,
+  left=12pt,
+  right=12pt,
+  top=10pt,
+  bottom=10pt,
+  before skip=14pt,
+  after skip=14pt
+}
+ 
+\setstretch{1.4}
+\setlength{\parskip}{0.6em}
+ 
+\begin{document}
+ 
+% ============================================================
+% TITLE PAGE
+% ============================================================
+\begin{titlepage}
+  \begin{center}
+    \vspace*{3cm}
+ 
+    {\fontsize{26}{32}\selectfont\bfseries\color{heading}
+      Hormuz, Mines, and the Gulf}\\[1.2em]
+ 
+    {\large\color{subtext}
+      The 2026 Oil Shock}\\[2.5em]
+ 
+    {\color{ruleline}\rule{0.5\textwidth}{0.4pt}}\\[2em]
+ 
+    {\normalsize Daniel Weng}\\[0.4em]
+    {\small\color{subtext} Independent Research}\\[3em]
+ 
+    {\small Current as of \textbf{14 March 2026}}\\[0.3em]
+    {\footnotesize\color{subtext}
+      All policy references reflect the Trump administration\\
+      and the ongoing US--Israeli war on Iran, which began 28 February 2026.}\\[3em]
+ 
+    {\color{ruleline}\rule{0.5\textwidth}{0.3pt}}\\[1.5em]
+ 
+    {\footnotesize\color{subtext}
+      An independent macroeconomic and geopolitical analysis\\
+      incorporating Polymarket prediction data, IEA reporting,\\
+      Federal Reserve research, and open-source intelligence}
+ 
+  \end{center}
+ 
+  \vfill
+ 
+ 
+\end{titlepage}
+ 
+\tableofcontents
+\newpage
+
+
+%% ============================================================
+\section{The Historical Pattern}
+%% ============================================================
+
+The years 1973, 1982, 1990, 2001, and 2008 all share a well-documented thread.  Each saw oil prices spike significantly above the 12-month average, and each was followed by an NBER-classified US recession. Now the 1987 episode is a little more awkward, oil prices moved sharply that year, but the NBER did not declare recession following it. This distinction matters as we are not arguing that an oil shock will lead to a recession automatically. It does not.  Federal Reserve research has also shown that the impact of oil shocks on recession damage varies year to year, depending on the macroeconomic conditions prior and during the time of the shock. 
+
+This matters today because, despite decades of energy transition talks, many developing economies still rely on oil as their main source of energy. Consumption is near all-time highs even when adjusting for population growth. IMF managing director, Kristalina Georgieva, has noted that every 10\% increase in oil prices, sustained for most of a year, pushes up global inflation by 0.4 percentage points and is associated with worldwide economic output by as much as 0.2\%. Comparing the US real GDP growth with the inverted oil price shifted forward by a year shows this pattern the best, whenever oil prices jump, they tend to precede GDP contraction by roughly twelve months. This points at a potential recession in late 2026 or early 2027. 
+
+%% ============================================================
+\section{The Current Shock in Numbers}
+%% ============================================================
+
+Brent crude surged 10--13\% to around \$80--82 per barrel on the first day of the conflict (March 1), with analysts forecasting prices could reach \$100 per barrel if disruptions persisted. At its peak earlier this week, Brent touched \$119. Prices have since retreated to approximately \$90 --- still roughly 30\% above the pre-conflict level of less than \$70 in February 2026.
+
+Simon Johnson put it bluntly: \textit{``The Strait of Hormuz has to be reopened. It's 20 million barrels of oil a day going through there. There is no excess capacity anywhere in the world that can fill that gap.''} The IEA's emergency reserve release provides only a temporary bridge. Gulf exporters, including bypass pipelines through Saudi Arabia and the UAE, can reroute at most 3.5 to 4.7 million barrels per day around the strait --- against the 20 million previously flowing through it. No alternative closes that gap.
+
+%% ============================================================
+\section{Why the Last Oil Shock Was Different --- and How Today Differs }
+%% ============================================================
+
+The most recent oil shock following the 2022 Russian invasion of Ukraine produced a comparable oil shock, yet no NBER recession followed. However the macro economic picture looked very different, pandemic-era savings were high, and unemployment was near 60-year lows. (None of these foundations exist in the same way today.)
+
+\subsection{Consumer buffers}
+According to the Bureau of Economic Analysis, the personal saving rate stood at 3.6% of disposable personal income in December 2025, much lower than the pandemic peak of 32% and historically low heading into an external shock. This number however, requires a little more nuance. The top two quintiles of earners retained most of their pandemic-era
+savings; the bottom two were already financially stressed before the Iran conflict began.
+Lower-income households also spend a proportionally higher share of income on energy. Any increase in the cost of oil, transmitted through gasoline and heating prices, is passed on directly to consumers and hits poorer households hardest.
+\subsection{Labour market}
+The US unemployment rate rose to 4.4% in February 2026, up from 4.3% in January, with the number of unemployed increasing by 203,000 to 7.57 million, and total employment falling by 185,000. This deterioration came before the energy shock. Goldman Sachs economist David Mericle described the job creation rate as “barely above zero, trailing even the 70,000 jobs-per-month breakeven rate.” Another economist described the US as already in a “jobs recession” before the Iran conflict even began.
+
+\subsection{Consumer sentiment}
+The University of Michigan’s Consumer Sentiment Index fell to 55.5 in March 2026, its lowest reading in months, as households reacted to the military conflict and rising gasoline prices. Survey director Joanne Hsu has noted that sentiment has fallen and inflation expectations have increased following the start of the US military conflict in Iran. Even after adjusting for a methodological survey change in 2024, sentiment was lower than it has been 96% of the time since 1978, despite a “misery index” (unemployment plus inflation) that was objectively better than 76% of months over the past fifty years, largely attributed to social media, political polarisation, and income inequality.
+
+
+%% ============================================================
+\section{The Mine Problem: A Physical Floor on Duration}
+%% ============================================================
+
+Mainstream coverage underweights this dimension, but it changes the crisis's duration.
+
+\subsection{Current deployment status}
+
+A mid-March 2026 research note drawing on US intelligence reporting, Reuters, and CNN gives the best open-source picture available:
+
+\begin{summarybox}
+\textbf{Mine Deployment Summary (as of March 13, 2026)}\\[0.5em]
+\begin{tabular}{ll}
+  Reported mines deployed & $\approx$12--``a few dozen'' (Reuters/CNN, US intelligence) \\
+  Iranian official position & Categorical denial \\
+  Total Iranian arsenal & 5,000--6,000 (IFRI, US CRS estimates) \\
+  Deployed fraction & $<$1\% of total arsenal \\
+  US mine-laying vessels struck & 16 confirmed (CENTCOM, March 10) \\
+\end{tabular}
+\end{summarybox}
+
+Iran is using the \textit{threat} of mines more than the weapon itself. The point is coercive leverage: maximum psychological and economic disruption with minimum military commitment. Preserving the undeployed arsenal keeps Iran's escalation option open.
+
+\subsection{Capability and doctrine}
+
+
+Iran's threat of mines has largely been kept out of mainstream media, but it offers one of the highest asymmetric payoffs within its current doctrine. The point is coercive leverage, if it's adversaries decide to escalate, they can mine off they entire strait. Or they can keep on threatening to use them, giving them more leverage if the conflict drags on.
+
+In February 2026, two weeks before the war began, the IRGC Navy ran a full-scale exercise called “Smart Control of the Strait of Hormuz,” and an affiliated outlet published an animated video showing how the Strait could be closed using sea mines, Ghadir-class submarines and Fattah hypersonic missiles. Earlier in the year, Iranian state television showed the IRGC using Fajr-5 multiple launch rocket system to lay naval mines directly from shore. Iran’s arsenal includes contact (moored) mines; influence (bottom) mines triggered by pressure, magnetic or sound; drifting mines; and limpet mines attached directly to ship hulls. Mines have long been established as part of Iranian naval doctrine, and the range of arsenal proves it. The bottom mines are of particular concern, IFRI notes they are “almost impossible to sweep” in the Strait’s strong tidal conditions of 3–4 knots.
+
+\subsection{US minesweeping capability gap}
+The US Navy decommissioned its four Avenger-class minesweepers from Bahrain in September 2025, around five months before Iran began mining. They have wooden hulls, designed specifically to reduce the magnetic signatures that trigger many mine types. Their replacements, the Independence-class Littoral Combat Ships with MCM modules are metal ships currently suffering from reliability problems, if the strait were mined extensively, the Washington Institute has estimated it would require at least 16 dedicated MCM vessels. The US currently has seven in theatre.
+Columbia University’s Center on Global Energy Policy estimates best-in-class European minesweepers are “months away” from arriving, and that's assuming that the (EU) would want to even get involved, many countries have already stated it is an American problem. Reports that American resources could clear the strait only “over significant numbers of weeks”, in my view is a very optimistic view. 
+
+Minesweeping in a live conflict zone, slowly and meticulously as the task requires, is one of the most dangerous naval operations there is. The 1988 USS Samuel B. Roberts mine strike, which broke the ship’s keel, showed that Iran has used this capability against the US before and is well within Iranian naval doctrine. NATO commanders clear minefields in different phases, they do not attempt to remove every mine as it's economically unviable. The procedure requires countermeasures crews to sail identical tracks multiple times over the same areas to trigger ship-counter mechanisms. For example, a mine might ignore the first five ships and explode during the sixth. Mixing these counter settings across a properly mined area forces crews to spend a while sweeping the same paths over and over again, and even then they cannot guarantee the water is permanently safe. Enemy minelayers are also able to use arming delays to keep weapons dormant, switched on when they are needed. 
+
+The operation moves through three stages. Commanders first open a narrow Q-Route (pre-planned shipping lane) within days for escorted convoys. They expand to restricted tanker transits over the following weeks, but must be guided through with lead through vehicles known as ’Guinea Pigs’ which are ships that are shock resistant at the front. Traffic volume in the first couple of weeks will be slow as each ship needs their own escort.
+A complete demining of the strait, if properly mined, is deemed ’uneconomical in time and effort’, but to get to the normal baseline could take months. 
+\subsection{The strategic implication}
+This means that even a ceasefire does not reopen the strait immediately. The minimum clearance timeline under optimistic assumptions is 4–6 weeks post-ceasefire with both parties working together. Under realistic assumptions, it could take up to 2–3 months. The IEA’s 400-million-barrel reserve release, roughly equivalent to 20 days of normal Hormuz flow, will run out long before clearance finishes if the conflict extends past mid-April
+%% ============================================================
+\section{The Geopolitical Architecture}
+%% ============================================================
+
+\subsection{Mojtaba Khamenei: the new Supreme Leader}
+
+Mojtaba Khamenei: the new Supreme Leader
+Mojtaba Khamenei’s mother, wife and one of his sisters were killed in the same strikes that killed his father on February 28th. It would be safe to say that he came into power under traumatic circumstances, with full IRGC backing and his early authority tied to the security establishment. His first public statement contained no ceasefire conditions and no mentions of coordination. He then demanded for reparations and a promise that “revenge is a file that will never be closed.” Al Jazeera analysts said quick succession is “a clear sign that hardline factions retain power and could indicate that the government has little desire to agree to a deal.”
+
+In Iran’s ideological framework, the military and the theological narrative are closely linked, and have been since Ruhollah Khomeini came to power in the 1979 Iranian Revolution. Mojtaba has taken over a political system where resistance and retaliation are framed as moral and religious duties, which makes it much difficult to talk him down from his current beliefs. His first role, in a country already strained by internal instability and repeated waves of protest from earlier in the year, is to consolidate his authority whilst also showing that he has the power to unite the country against an enemy and avenge his father. One of the only restraining factors, economic self-harm with full mine deployment, has also weakened because Iran’s economy has already been stunted from the war and from the closure of the strait. Mojtaba’s political survival may therefore depend less on economic management and more on being seen to surviving and consolidating. 
+
+
+\subsection{Netanyahu and the structural incentive to continue}
+Benjamin Netanyahu currently faces an active corruption trial on charges of bribery, fraud, and breach of trust. His political legitimacy lies as his self portrayed security officer to protect the state of Israel, and so any negotiated settlement that ends the conflict before Iranian military capability is crippled removes his own credibility that is currently keeping him in power. The incentive structure pushes him toward conflict continuation and away from any off ramp offered. This is particularly damning as days prior to the USA's strikes, Iran’s foreign minister publicly described a diplomatic agreement across many fields as 'achievable' days before the war started. The strikes had destroyed the domestic Iranian political conditions under which any deal could be ratified. The next ceasefire, when it comes, will be negotiated with a hardline IRGC-backed government that has no incentive to offer concessions and every incentive to reconstitute and protect their own sovereignty.
+
+
+
+\subsection{The ratchet pattern}
+The current war has been involved in a repeating pattern/cycle. The June 2025 twelve-day war ended with a declared Israeli victory; satellite imagery later showed
+Iranian nuclear reconstitution. Only six months later the parties were back at war with a much worse baseline. Each cycle ends with a early peace, time to recuperate and plan for the next battle. And so the most realistic near-term base case is the “declare victory and leave” scenario: Trump sells weapons to Gulf states, claims success, and exits as fast as he can. Netanyahu would feel furious, but keeps his self-declared right to strike Iranian nuclear infrastructure unilaterally. Mojtaba uses the pause to reconstitute, re-arm and consolidate. The IEA releases are drawn down, oil drifts back toward \$80 but not down to February lows, and the geopolitical uncertainty premium stays elevated for however long the peace stays for. Something that must be flagged were the indirect talks in Geneva on the enriched uranium issue, where the Omani mediator reported "significant progress," Iran offered concessions and were willing to negotiate but were struck with missiles 48 hours later anyway.
+
+
+
+\subsection{Saudi Arabia as an active driver}
+The role of Gulf states of both Saudi Arabia and the UAE, are also underrated in mainstream media relative to both the US and Israeli narratives. The Saudis may well have been lobbying for this war, their regional interests and Iran’s strategic destruction are tied to their long-term position of being the strongest country in the Gulf. That complicates the exit: Saudi incentives do not align with US war termination goals, Israeli political timelines, or the humanitarian pressures that might otherwise push towards a ceasefire. The Gulf states are active players in this conflict, and any peace framework that ignores them will be unstable. It must also be underlined that the UAE holds multiple US bases, of which some have already been struck. 
+
+
+\subsection{Ukraine, Russia, and the compounding dynamic}
+The Trump administration lifted sanctions off of Russian oil stranded at sea, around 124 million barrels which was quickly condemned by six of the seven G7. Ukraine’s Zelensky warned that these proceeds, approximately \$10 billion, would provide Russia with their war effort against them. Putin quickly jumped on the opportunity to offer to resume oil flows to European customers, using the shock as a commercial opportunity to restore ties. This has weakened any bargaining chips Ukraine had against the kremlin, and European leaders were outraged. Tensions between America and it's NATO allies have strained considerably since. 
+
+%% ============================================================
+\section{ Qatar LNG }
+%% ============================================================
+
+On March the 2nd, Iranian drones attacked Ras Laffan LNG plant, the largest liquefaction facility in the world. This plant was responsible for up to 20% of global LNG supply and was forced to declare force majeure after being struck. QatarEnergy halted gas production soon after. LNG spot prices responded immediately in Asia, doubling to three-year highs of \$25.40 per million British thermal units whilst European LNG prices surged by as much as 50% on the same day, further straining the already fragile oil resources. 
+
+%% ============================================================
+\section{The US Domestic Position}
+%% ============================================================
+
+\subsection{The Fed's stagflation bind}
+(Goldman Sachs raised its 12-month recession probability to 25% after the February Jobs Report and oil price surge. JP Morgan currently places it at 40%. The New York Fed model showed 18.7% before the conflict began. Core PCE stood at 3.0% year-over-year  in December 2025, already above the 2% target.)
+
+With retail gasoline prices up more than 50 cents since the war began, Inflation will likely surge further in the March and April prints, and so this puts the Fed is stuck between a rock and a hard place. It can be argued that the current labour market is soft enough for an easing. However combined with high inflation driven by oil and tariffs, it looks much more unlikely A central bank that is unable to cut into a downturn because inflation was picking back up was the defining characteristic of the 1970s. Goldman Sachs has now pushed its first expected rate cut to September, with a potential one in December. JP Morgan’s chief US economist had forecast no cuts in 2026 and even suggested hikes in 2027. In markets like these, uncertainty is everywhere. Even in a sharp recession, like in 2008, there are visible crisis signals and institutional responses. Obvious steps are obvious, emergency Fed cuts, fiscal stimulus, coordinated international action etc,. Stagflation, or whatever happens before it does not have obvious steps. Inflation above target keeps the Fed wary of cutting. Debt levels, which have been rising, limit fiscal expansion. The labour market falls slowly enough that no single jobs report forces political action and so the damage builds up in consumption deferrals, hiring freezes, and pauses in business capex while policymakers sit around and wait for something that will force them to take action.
+
+
+
+The labour market deterioration is not mainly about mass layoffs. At SME level, it shows up as lower hiring levels and deferrals in capex. Small businesses, which employ nearly half the US workforce, cannot access capital  the way large corporations can. And so when oil prices rise, input costs rise immediately, customers get more cautious  and firms stop hiring. The damage here will likely only be obvious in retrospect but will slowly creep up as labour becomes more and more economically unviable.
+
+
+%% ============================================================
+\section{Structural Amplifiers}
+%% ============================================================
+
+
+
+
+%% ============================================================
+\section{Institutional Forecasts and Scenario Range}
+%% ============================================================
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+\textbf{Institution} & \textbf{Recession Probability} & \textbf{Key Assumption} \\
+\midrule
+Goldman Sachs & 25\% & Weeks to 2 months disruption \\
+JP Morgan & 40\% & ``Considerable downside risk'' \\
+New York Fed model & 18.7\% (pre-conflict) & Now materially higher \\
+Polymarket & $\approx$40\% & Real-time market pricing \\
+Oxford Economics & Eurozone contraction & \$130+ oil for 2+ months \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+These forecasts assume weeks to two months of disruption. The mine analysis above introduces a physical floor that makes sub-two-month resolution difficult even under optimistic political assumptions. If the blockade extends into summer, the more severe scenarios become the relevant reference frame.
+
+Chatham House has modelled two scenarios. In a short-lived conflict, inflation in Europe and Asia rises roughly 0.5 percentage points above pre-conflict forecasts with minimal GDP impact. In a severe scenario where conflict persists for several months and oil averages around \$130 per barrel, the eurozone contracts in Q2 and flatlines through H2, while the US slows materially. Fatih Birol of the IEA called the current market challenges worse than the Gulf War of 1991 and the 2022 Ukraine invasion combined.
+
+\subsection{Polymarket prediction market signals (March 14, 2026)}
+
+\begin{summarybox}
+\begin{tabular}{p{8cm}r}
+  US recession probability 2026 & $\approx$40\% \\
+  Strait traffic normal by end of April & 37\% \\
+  Ships per day end of March (0--10) & 65\% probability \\
+  Ceasefire by April 30 & 38\% \\
+  Ceasefire by May 31 & $\approx$51\% \\
+  Ceasefire by end of 2026 & 70\% \\
+  US forces enter Iran by March 31 & 43\% \\
+  Unemployment reaches 5.0\% & 54\% \\
+  Unemployment reaches 5.5\%+ & $\approx$40\% combined \\
+\end{tabular}
+\end{summarybox}
+
+The ceasefire distribution --- median resolution late April to mid-May --- cross-referenced with mine clearance lag (4--6 weeks post-ceasefire minimum) implies meaningful tanker flow resumption no earlier than June and more plausibly July. That is about four months of sustained shock in the central case. At that duration, the IEA reserve release is exhausted and the economic damage becomes cumulative.
+
+%% ============================================================
+\section{Moderating Factors}
+%% ============================================================
+
+The US is now a net energy exporter, which gives it some protection from the income-transfer effects that made the 1970s oil shocks so damaging. Higher prices will hurt consumers, but  will also support domestic producers, investment and energy-sector revenues. The US economy is also less oil-sensitive than it was forty years ago. Europe, and other import-heavy economies however, do not have the same cushion.
+
+There is also a natural limit to how long oil can stay elevated. At roughly \$90–119 Brent, industrial switching, slow steaming and fuel substitution become increasingly attractive, while energy-intensive firms begin adjusting their input mix. The 2022 shock showed how quickly some of this adjustment can happen.
+
+Fiscal policy weakens the pass-through as well. Price caps, transfers and subsidies mean households are rarely exposed to the full spot move immediately. In the UK, the energy price cap provides some insulation, so assuming full consumer pass-through likely overstates the near-term impact.
+
+The main upside scenario remains a quick military resolution. If US-Israeli operations force a ceasefire within the next few weeks, and Iran decides reopening the Strait gets it better terms than maintaining the blockade, oil could fall sharply and much of the economic damage would remain temporary. Markets may already be assigning more weight to that outcome than my mine analysis does, possibly because they have better information on the military situation. This is assuming that some sort of stalemate is not dragged out for ages, which is a very real secondary opinion. 
+
+AI-driven productivity is another potential supply-side offset. The full effect is still unclear, but firms have barely begun to work out where AI can genuinely improve output, margins and decision-making. If adoption moves faster than expected, the productivity impact could become meaningful.
+
+
+%% ============================================================
+\section{Conclusion}
+%% ============================================================
+
+The 2026 oil shock is hitting three vulnerabilities at once: a US consumer with depleted savings (BEA: 3.6%, December 2025), a labour market already weakening before the shock (BLS: 4.4% unemployment in February 2026 and negative payroll growth), and a Federal Reserve still constrained by sticky inflation.
+
+There is also no obvious near-term exit from the supply disruption. Iran has used less than 1% of its mine arsenal so far, leaving considerable room to escalate while keeping the Strait as coercive leverage. A new Supreme Leader with both personal and ideological reasons to resist makes de-escalation harder, while Netanyahu's political incentives still favour continuation. The ratchet so far looks less like a one-off shock and more like the beginning of a phase.
+
+This is where the 2022 comparison starts to break down. The buffers that helped absorb that shock are much weaker today. The closer historical risk is the 1970s: an energy shock arriving alongside weakening growth and persistent inflation, leaving the central bank with increasingly bad choices. That period ended with stagflation, two NBER recessions and, eventually, a Federal Reserve willing to take rates to 20% to restore price stability.
+
+Former IMF chief economist Maurice Obstfeld put it this way: \textit{``For a long time, the nightmare scenario that deterred the US from even thinking about an attack on Iran was that the Iranians would close the Strait of Hormuz. Now we're in the nightmare scenario.''}
+
+\vspace{1em}
+
+
+\vspace{2em}
+\noindent\rule{\textwidth}{0.3pt}\\[0.3em]
+{\small\color{subtext}
+\textit{This analysis is produced for informational and research purposes. It does not constitute financial advice. All probability estimates are illustrative and based on publicly available prediction market and institutional data as of March 14, 2026.}
+}
+\end{document}
+
+
+
+
+
