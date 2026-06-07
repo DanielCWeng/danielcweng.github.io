@@ -7,7 +7,7 @@ interface Props {
 }
 
 const { piece } = Astro.props;
-const { title, date, tags, status, threat_level, summary, pdf, tex } = piece.data;
+const { title, date, tags, status, threat_level, summary, pdf, tex, embed } = piece.data;
 
 const dateStr = date.toLocaleDateString('en-US', {
   year: 'numeric',
@@ -81,6 +81,12 @@ const dateStr = date.toLocaleDateString('en-US', {
     {pdf && (
       <div class="pdf-embed-wrapper">
         <iframe src={pdf} class="pdf-embed" title={title}></iframe>
+      </div>
+    )}
+
+    {embed && (
+      <div class="sheet-embed-wrapper">
+        <iframe src={embed} class="sheet-embed" title={title}></iframe>
       </div>
     )}
 

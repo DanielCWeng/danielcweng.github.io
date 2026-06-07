@@ -12,6 +12,7 @@ const pieces = defineCollection({
     summary: z.string(),
     pdf: z.string().optional(),
     tex: z.string().optional(),
+    embed: z.string().optional(),
   }),
 });
 
