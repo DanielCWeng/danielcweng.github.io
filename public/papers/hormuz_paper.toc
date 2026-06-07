@@ -1,0 +1,26 @@
+\contentsline {section}{\numberline {1}The Historical Pattern}{2}{section.1}%
+\contentsline {section}{\numberline {2}The Current Shock in Numbers}{2}{section.2}%
+\contentsline {section}{\numberline {3}Why the last oil shock was different --- And how does it differ from today? }{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Consumer buffers}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Labour market}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Consumer sentiment}{4}{subsection.3.3}%
+\contentsline {section}{\numberline {4}The Mine Problem: A Physical Floor on Duration}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Current deployment status}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Capability and doctrine}{5}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}US minesweeping capability gap}{5}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}The strategic implication}{6}{subsection.4.4}%
+\contentsline {section}{\numberline {5}The Geopolitical Architecture}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Mojtaba Khamenei: the new Supreme Leader}{7}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Netanyahu and the structural incentive to continue}{7}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}The ratchet pattern}{8}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Saudi Arabia as an active driver}{8}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Ukraine, Russia, and the compounding dynamic}{9}{subsection.5.5}%
+\contentsline {section}{\numberline {6}The Qatar LNG Dimension}{9}{section.6}%
+\contentsline {section}{\numberline {7}The US Domestic Position}{10}{section.7}%
+\contentsline {subsection}{\numberline {7.1}The Fed's stagflation bind}{10}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Business investment deferral as a silent channel}{10}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Distributional exposure}{11}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Institutional Forecasts and Scenario Range}{11}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Polymarket prediction market signals (March 14, 2026)}{12}{subsection.8.1}%
+\contentsline {section}{\numberline {9}Moderating Factors}{12}{section.9}%
+\contentsline {section}{\numberline {10}Conclusion}{13}{section.10}%
