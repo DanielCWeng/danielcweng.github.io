@@ -3,7 +3,7 @@ title: "Apple Inc. — Discounted Cash Flow Model"
 date: 2026-07-03
 tags: [equity, financials, DCF]
 status: active
-summary: "DCF valuation for Apple Inc., cross-checked with a reverse DCF against market-implied growth assumptions."
+summary: "DCF valuation for Apple Inc."
 embed: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQo9tmJxd02aBQjydVTiXKdwDl9_5ACgS6VChUx2D6PepHprWEU1ZtBoEDDo5PDLOpTcnkejJPXUmgx/pubhtml?widget=true&headers=false"
 ---
 
