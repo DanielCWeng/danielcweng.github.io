@@ -1,0 +1,930 @@
+# 10. MANDATORY SOURCE UNIVERSE
+
+Search broadly and prioritise primary sources.
+
+Do NOT rely on one or two generic searches.
+
+## BANK / PUBLIC BUSINESS-MODEL CONTEXT
+
+Use where necessary:
+
+- Triodos Bank UK annual reports;
+- Triodos Bank UK public lending/customer directory;
+- Triodos Bank UK public customer stories;
+- Triodos Bank UK lending criteria;
+- Triodos Bank Minimum Standards;
+- Triodos Bank Group annual/interim reporting;
+- other relevant public disclosures.
+
+Use these for context only.
+
+Do not infer non-public exposure information.
+
+## UK FINANCIAL / REGULATORY
+
+Search:
+
+- Bank of England
+- Financial Policy Committee
+- Monetary Policy Committee
+- Prudential Regulation Authority
+- Financial Conduct Authority
+- HM Treasury
+- UK Government
+- Office for National Statistics
+- Insolvency Service
+- Debt Management Office where relevant
+- Payment Systems Regulator
+
+## OPERATIONAL RISK / CYBER / RESILIENCE
+
+Search:
+
+- ORX
+- National Cyber Security Centre
+- Bank of England operational-resilience material
+- PRA operational-risk material
+- FCA operational-resilience material
+- ENISA
+- Pay.UK
+- Bank of England RTGS / CHAPS
+- SWIFT where relevant
+- Ofcom
+- major credible technology/security authorities
+- major infrastructure providers where relevant.
+
+Search for:
+
+- actual incidents;
+- emerging threats;
+- common vulnerabilities;
+- third-party concentration;
+- critical technology providers;
+- fraud developments;
+- payment disruption;
+- cloud outages;
+- telecom outages;
+- cyber campaigns.
+
+## EUROPEAN FINANCIAL / REGULATORY
+
+Search:
+
+- European Central Bank
+- European Banking Authority
+- European Systemic Risk Board
+- ESMA where relevant
+- European Commission
+- DG FISMA
+- Eurostat
+- ENISA
+- relevant European national authorities.
+
+## RENEWABLE ENERGY
+
+Search:
+
+- DESNZ
+- Ofgem
+- National Energy System Operator
+- National Grid where relevant
+- Distribution Network Operators where relevant
+- Low Carbon Contracts Company
+- International Energy Agency
+- RenewableUK
+- Solar Energy UK
+- Energy UK
+- relevant European Commission energy sources
+- credible energy-market data.
+
+## AGRICULTURE / FOOD
+
+Search:
+
+- DEFRA
+- Animal and Plant Health Agency
+- AHDB
+- Environment Agency
+- Rural Payments Agency
+- Met Office
+- Soil Association
+- credible organic-sector bodies
+- NFU where useful
+- European Commission DG AGRI
+- EFSA
+- relevant devolved UK authorities.
+
+## SOCIAL HOUSING
+
+Search:
+
+- Regulator of Social Housing
+- MHCLG
+- Homes England
+- National Housing Federation
+- local-authority finance information
+- sector financial-health surveys
+- credible specialist housing press.
+
+## HEALTH / SOCIAL CARE
+
+Search:
+
+- Care Quality Commission
+- DHSC
+- NHS England
+- Skills for Care
+- ADASS
+- Local Government Association
+- relevant devolved authorities.
+
+## EDUCATION / CHILDCARE
+
+Search:
+
+- Department for Education
+- Ofsted
+- SEND policy/funding publications
+- local-authority information
+- relevant devolved authorities.
+
+## CHARITIES / COMMUNITY
+
+Search:
+
+- Charity Commission
+- NCVO
+- Fundraising Regulator
+- government commissioning publications
+- local-government funding information.
+
+## NATURE / FORESTRY / ENVIRONMENT
+
+Search:
+
+- DEFRA
+- Natural England
+- Environment Agency
+- Forestry Commission
+- JNCC
+- Office for Environmental Protection
+- Green Finance Institute
+- European Environment Agency
+- relevant European environmental authorities.
+
+## PROPERTY / CONSTRUCTION
+
+Search:
+
+- MHCLG
+- RICS
+- BCIS
+- Insolvency Service
+- UK Green Building Council
+- DESNZ
+- Environment Agency
+- credible construction/property data providers.
+
+## CLIMATE / PHYSICAL RISK
+
+Search:
+
+- Met Office
+- Environment Agency
+- UKHSA
+- Climate Change Committee
+- European Environment Agency
+- Copernicus
+- ECMWF
+- relevant flood/drought/wildfire authorities.
+
+## FRAUD / PAYMENTS / FINANCIAL CRIME
+
+Search:
+
+- FCA
+- NCA
+- UK Finance
+- Payment Systems Regulator
+- Pay.UK
+- HM Treasury
+- OFSI
+- NCSC
+- relevant European authorities.
+
+## INTERNATIONAL / MACRO
+
+Use where relevant:
+
+- BIS
+- IMF
+- OECD
+- World Bank
+- International Energy Agency
+- relevant UN agencies.
+
+## HIGH-QUALITY JOURNALISM
+
+Use for:
+
+- discovery;
+- rapidly developing events;
+- corroboration;
+- additional context.
+
+Prioritise:
+
+- Reuters
+- Financial Times
+- Bloomberg
+- BBC where appropriate
+- credible specialist trade publications.
+
+Where an authoritative primary source is available, prefer it for final evidence.
+
+---
+
+# 11. SOURCE DISCIPLINE
+
+For every major ranked risk, where practical use:
+
+- at least one authoritative/primary source;
+- plus one independent corroborating source.
+
+Do not treat multiple articles repeating the same wire story as independent corroboration.
+
+Avoid:
+
+- low-quality blogs;
+- clickbait;
+- unsupported social media;
+- anonymous speculation;
+- unverified claims;
+- purely promotional material.
+
+Distinguish clearly:
+
+### FACT
+Supported by credible evidence.
+
+### INFERENCE
+Reasoned interpretation of facts.
+
+### SCENARIO
+Possible future outcome that has not occurred.
+
+Never present a scenario as fact.
+
+---
+
+# 12. CANDIDATE RISK POOL
+
+Do not jump directly from research into a Top 10.
+
+First construct a broad candidate pool.
+
+Aim to identify approximately **20–30 plausible external developments**, where available.
+
+For each candidate record:
+
+- event;
+- source;
+- publication/event date;
+- geography;
+- potentially affected sector(s);
+- primary risk type;
+- transmission mechanism;
+- potential consequence;
+- whether it materially changed this week.
+
+Remove:
+
+- duplicates;
+- weakly evidenced stories;
+- events with no credible bank transmission mechanism;
+- stale risks with no meaningful weekly development;
+- global stories with negligible relevance.
+
+Then rank the surviving candidates.
+
+---
+
+# 13. TRANSMISSION TEST
+
+Every ranked event must pass:
+
+**External event**
+
+→ **Transmission mechanism**
+
+→ **Relevant bank activity / customer sector / operational dependency**
+
+→ **Potential consequence**
+
+Example:
+
+**Livestock disease**
+
+→ lower productivity + movement/biosecurity costs
+
+→ farming customers face weaker cash flow
+
+→ potential credit deterioration.
+
+Example:
+
+**Major cloud-provider outage**
+
+→ common infrastructure unavailable
+
+→ banks or critical suppliers experience service disruption
+
+→ operational/customer/resilience consequences
+
+→ potential Enterprise-level dependency issue.
+
+Example:
+
+**Renewable-support policy change**
+
+→ project revenues/economics change
+
+→ renewable customers face different financing economics
+
+→ credit/strategic implications.
+
+If the transmission chain is weak, speculative or generic, lower the ranking substantially.
+
+---
+
+# 14. GROUP EFFECT
+
+For each important risk, assess whether membership of a larger European banking group could:
+
+- substantially mitigate the risk;
+- moderately mitigate the risk;
+- have limited effect;
+- create an additional transmission route;
+- potentially increase shared dependency.
+
+Examples include:
+
+- shared technology;
+- common cyber infrastructure;
+- common third parties;
+- treasury arrangements;
+- European regulatory exposure;
+- reputational spillover;
+- group strategic decisions.
+
+Do not assume non-public arrangements.
+
+Never assume group support automatically neutralises risk.
+
+If uncertain, state so.
+
+---
+
+# 15. SCORING METHODOLOGY
+
+Score serious candidates from **1–5** on:
+
+## Bank relevance — 25%
+How directly could the event affect the bank's known business model, customers, funding environment, operations or strategic mission?
+
+## Potential impact — 20%
+How serious could consequences reasonably become?
+
+## Probability / immediacy — 15%
+How credible is the transmission mechanism and how soon might it matter?
+
+## Breadth / potential concentration relevance — 15%
+Could the event affect an important customer sector, supplier type, technology dependency, funding channel or strategic area?
+
+Do NOT assume internal concentration.
+
+## Change this week — 15%
+Has the risk materially changed during the review period?
+
+## Management-attention value — 10%
+Would a reasonable second-line Risk function want to discuss this now?
+
+Convert into:
+
+**Bank Risk Relevance Score /100**
+
+Do NOT imply false mathematical precision.
+
+Where internal data could materially change the ranking, say so.
+
+---
+
+# 16. RANKING PRINCIPLE
+
+The ranking must answer:
+
+> **What should the overall Risk function care about most this week based on publicly observable information?**
+
+NOT:
+
+> **What were the biggest news stories this week?**
+
+A quieter but highly relevant regulatory, sectoral, financial or operational event should outrank a dramatic global event with weak transmission into the bank.
+
+Do not allow media coverage volume to determine importance.
+
+Do not create artificial sector balance.
+
+Do not create artificial Operational/Financial/Enterprise balance.
+
+Do not pretend to know internal exposure sizes.
+
+---
+
+# 17. DUPLICATION / AGGREGATION RULE
+
+Avoid counting the same underlying risk multiple times.
+
+For example:
+
+- rising gilt yields;
+- changing Bank Rate expectations;
+- loan repricing;
+- deposit repricing
+
+may represent one underlying rates/funding theme.
+
+Three reports of the same cyber campaign are normally one event.
+
+However, keep developments separate where transmission mechanisms genuinely differ.
+
+---
+
+# 18. OUTPUT STRUCTURE
+
+# WEEKLY EXTERNAL RISK RADAR
+
+**Review period:** [DATE] – [DATE]
+
+**Prepared for:** Bank Risk Function
+
+**Evidence basis:** Publicly available external information only. No internal exposure or control-assessment information has been provided.
+
+---
+
+# A. EXECUTIVE ASSESSMENT
+
+Maximum 250 words.
+
+State:
+
+- whether the external environment improved, deteriorated or remained broadly stable;
+- biggest weekly change;
+- most important Operational Risk development;
+- most important Financial Risk development;
+- most important Enterprise-level implication;
+- most significant industry control/enforcement signal;
+- any important cross-risk interaction.
+
+Avoid generic commentary.
+
+---
+
+# B. TOP 10 EXTERNAL RISKS
+
+Provide:
+
+| Rank | Event / development | Primary risk | Secondary implications | Enterprise significance | Relevant sector(s) | Geography | Direction | Horizon | Score |
+|---|---|---|---|---|---|---|---|---|---|
+
+Primary risk:
+
+- Operational
+- Financial
+- Enterprise / Strategic
+
+Enterprise significance:
+
+- Low
+- Moderate
+- High
+- Very High
+
+Direction:
+
+- NEW
+- ↑ Increasing
+- → Stable / persistent
+- ↓ Decreasing / improving
+
+Horizon:
+
+- Immediate: days/weeks
+- Near term: 1–3 months
+- Medium term: 3–12 months
+
+---
+
+# C. DETAILED TOP-10 ANALYSIS
+
+For each:
+
+## [RANK]. [RISK EVENT]
+
+### What changed this week
+
+### Why it matters to this bank
+
+Explain using publicly known activities and plausible transmission channels.
+
+Do not assume internal exposure.
+
+### Primary risk
+
+Operational / Financial / Enterprise-Strategic
+
+Where Financial, specify likely subcategory where possible.
+
+### Secondary risk implications
+
+### Enterprise significance
+
+Low / Moderate / High / Very High
+
+Explain relevant:
+
+- aggregation;
+- potential concentration;
+- strategy;
+- interdependency;
+- emerging risk;
+- reputation;
+- business model;
+- second-order effects.
+
+### Relevant customer sectors / business areas
+
+Do not claim exposure magnitude.
+
+### Transmission mechanism
+
+**Event → transmission → activity/sector/dependency → consequence**
+
+### Potential consequences
+
+Consider:
+
+- customer creditworthiness;
+- arrears/default;
+- collateral;
+- profitability;
+- liquidity;
+- funding;
+- deposits;
+- technology;
+- operations;
+- third parties;
+- compliance;
+- reputation;
+- strategy;
+- resilience.
+
+### Internal-data dependency
+
+State:
+
+- Low
+- Moderate
+- High
+
+Explain whether internal exposure/dependency data could materially change the assessment.
+
+### Group effect
+
+- Mitigating
+- Neutral
+- Amplifying
+- Uncertain
+
+### Assessment
+
+Likelihood: Low / Medium / High
+
+Impact: Low / Medium / High
+
+Direction: NEW / ↑ / → / ↓
+
+Bank Risk Relevance Score: XX/100
+
+### Evidence
+
+Provide source, publication date and direct link.
+
+### What to watch next
+
+Give 1–3 concrete triggers.
+
+Avoid vague statements such as "continue monitoring".
+
+---
+
+# D. REGULATORY ENFORCEMENT & INDUSTRY CONTROL SIGNALS
+
+Provide:
+
+| Institution | Regulator | Issue / enforcement | Root control failure | Transferability | Relevant risk area | Read-across question |
+|---|---|---|---|---|---|---|
+
+Include only meaningful cases.
+
+For each important case briefly explain:
+
+- what happened;
+- what control failed;
+- why it failed where known;
+- whether it appears isolated or part of a wider pattern;
+- why the lesson is or is not transferable.
+
+Do NOT infer that the bank shares the weakness.
+
+If several cases reveal the same weakness, include:
+
+## Emerging Industry Control Trend
+
+State:
+
+- common weakness;
+- number/type of cases;
+- regulators involved;
+- whether frequency appears to be increasing;
+- relevant Risk functions;
+- 2–4 read-across questions.
+
+A highly transferable industry control trend may enter the overall Top 10.
+
+---
+
+# E. CROSS-RISK INTERACTIONS
+
+Identify the most important interactions.
+
+Example:
+
+**Energy shock**
+
+→ Operational/customer costs
+
+→ Financial inflation/rates/credit effects
+
+→ Enterprise aggregation.
+
+Example:
+
+**Cyber campaign**
+
+→ Operational disruption
+
+→ Financial fraud/recovery cost
+
+→ Enterprise third-party/reputational issue.
+
+Only include genuinely material interactions.
+
+---
+
+# F. THREE-LENS SUMMARY
+
+## Operational Risk
+
+Risk level: Low / Moderate / Elevated / High
+
+Direction: ↑ / → / ↓
+
+Most important development:
+
+Emerging issue:
+
+Relevant enforcement/control signal:
+
+## Financial Risk
+
+Risk level: Low / Moderate / Elevated / High
+
+Direction: ↑ / → / ↓
+
+Most important development:
+
+Emerging issue:
+
+## Enterprise Risk
+
+Risk level: Low / Moderate / Elevated / High
+
+Direction: ↑ / → / ↓
+
+Summarise:
+
+- largest potential concentration concern identifiable from public information;
+- biggest cross-risk interaction;
+- most important strategic implication;
+- most significant emerging risk;
+- any industry-wide control pattern with Enterprise significance;
+- areas where internal data would most change the assessment.
+
+---
+
+# G. CUSTOMER-SECTOR RADAR
+
+Provide:
+
+| Sector | External risk level | Weekly direction | Key external driver | Primary risk channel |
+|---|---|---|---|---|
+| Renewable energy | | | | |
+| Agriculture & sustainable food | | | | |
+| Social / affordable housing | | | | |
+| Health & social care | | | | |
+| Education & childcare | | | | |
+| Nature / forestry | | | | |
+| Sustainable property / construction | | | | |
+| Charities / community / faith | | | | |
+| Arts / culture / recreation | | | | |
+| Purpose-led SMEs | | | | |
+| Depositors / funding environment | | | | |
+
+Use:
+
+- Low
+- Moderate
+- Elevated
+- High
+
+This assesses the **external environment**, not internal exposure.
+
+Do not manufacture developments.
+
+---
+
+# H. WATCHLIST
+
+Identify up to **5 issues not yet material enough for the Top 10**.
+
+For each:
+
+### Risk
+
+### Primary risk type
+
+### Why it could matter
+
+### Why it is not currently Top 10
+
+### Escalation trigger
+
+State specifically what would move it into the main ranking.
+
+---
+
+# I. WEEKLY CHANGE LOG
+
+Where a prior week's report is supplied, show:
+
+- entered Top 10;
+- moved up;
+- moved down;
+- unchanged;
+- moved to watchlist;
+- resolved/dropped;
+- materially improved.
+
+Explain important movements.
+
+Do not infer prior rankings where none are available.
+
+---
+
+# J. SOURCE-COVERAGE AUDIT
+
+This section is mandatory.
+
+Provide:
+
+| Research area | Sources checked | Material development found? | Included in report? |
+|---|---|---|---|
+| UK financial system | | Yes/No | |
+| European financial system | | | |
+| Operational risk | | | |
+| Cyber / technology | | | |
+| Regulatory enforcement / fines | | | |
+| AML / financial crime | | | |
+| Payments / fraud | | | |
+| Renewable energy | | | |
+| Agriculture | | | |
+| Social housing | | | |
+| Health / social care | | | |
+| Education / childcare | | | |
+| Sustainable property | | | |
+| Nature / forestry | | | |
+| Charities / community | | | |
+| Arts / culture | | | |
+| Climate / physical risk | | | |
+| Regulation / government policy | | | |
+| Global / geopolitical | | | |
+
+Do not claim to have checked a source that was not actually accessed.
+
+---
+
+# 19. RED-TEAM THE REPORT
+
+Before finalising, ask:
+
+1. Did I rank something highly merely because it received heavy media coverage?
+2. Does every Top-10 item have a credible bank-specific transmission mechanism?
+3. Did macro stories crowd out Operational Risk?
+4. Did cyber stories crowd out other Operational Risk?
+5. Did I adequately examine credit, liquidity, funding and interest-rate developments?
+6. Did I confuse Enterprise Risk with "important risk"?
+7. Did I use Enterprise primarily as an aggregation, strategic and interdependency lens?
+8. Did I overlook a customer sector because it appeared less prominent?
+9. Did I assume an internal sector concentration without evidence?
+10. Did I research all major publicly identified customer sectors before ranking?
+11. Did I properly investigate third-party and technology dependencies?
+12. Did I assess group transmission rather than automatically assuming group protection?
+13. Did I over-weight geopolitical risk?
+14. Have I duplicated the same underlying risk?
+15. Is the second-order consequence more material than the headline event?
+16. Have I confused systemic banking risk with material risk to this bank?
+17. Am I presenting inference or scenario as fact?
+18. Is an important European development missing because the research was too UK-centric?
+19. Have I adequately considered physical climate risks?
+20. Did I search regulatory enforcement rather than relying only on general news?
+21. Did I analyse the underlying control weakness rather than just report the fine?
+22. Did I rank a large fine highly simply because the monetary amount was large?
+23. Are multiple enforcement actions revealing an industry-wide control trend?
+24. Have I generated useful read-across questions without implying that the bank has the same weakness?
+25. Would Operational Risk, Financial Risk and Enterprise Risk professionals each find the report useful?
+26. Would a CRO understand immediately why the Top 3 matter?
+27. If I removed the news headlines and retained only the transmission mechanisms, would the ranking still make sense?
+28. Have I accidentally presented an external-sector vulnerability as though it were a known internal bank exposure?
+29. Where would internal exposure, dependency or control information most materially change my conclusions?
+
+Revise the report where necessary.
+
+---
+
+# 20. QUALITY BAR
+
+The finished report should resemble serious work prepared for:
+
+- Operational Risk;
+- Financial Risk;
+- Enterprise Risk;
+- Compliance / Financial Crime where relevant;
+- senior second-line Risk management;
+- potentially a CRO-level audience.
+
+It should NOT resemble:
+
+- a newspaper digest;
+- a generic macro outlook;
+- a sustainability newsletter;
+- a fines database;
+- an automatically generated "Top 10 Risks" article.
+
+Prioritise:
+
+**materiality > media attention**
+
+**credible transmission > interesting stories**
+
+**publicly evidenced relevance > invented exposure assumptions**
+
+**root control failure > fine amount**
+
+**control trends > isolated headlines**
+
+**broad research > first-search convenience**
+
+**Financial + Operational identification > vague Enterprise classification**
+
+**Enterprise aggregation > catch-all classification**
+
+**primary evidence > commentary**
+
+**weekly movement > static risk lists**
+
+**second-order consequences > superficial headlines**
+
+**balanced research coverage > mechanically balanced final rankings**
+
+**explicit uncertainty > invented internal knowledge**
+
+---
+
+# FINAL QUESTION
+
+Before completing the report, ensure the analysis answers:
+
+> **What materially changed outside the bank this week; through which Financial, Operational or strategic channels could it plausibly affect the bank; which publicly known customer sectors, infrastructure or dependencies may be exposed; what wider Enterprise significance could it create; what control failures are regulators finding elsewhere in banking and what lessons are transferable; how material does each issue appear based on public evidence; where would internal information change that assessment; and what should the Risk function watch or challenge next?**
+
+Do not finalise the report until you can answer that question clearly.
