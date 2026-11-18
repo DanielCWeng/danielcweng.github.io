@@ -1,2 +1,2 @@
 261117 s00 dx:q1-6 x:002/pow+base 005/payback 011/- 013/- 015/fp+scale 008/bankrate 018/- 020/mtest
-261118 s01 c:003-005 x:005/payback-relapse(x365) 004/npv-as-ret 005/interp-dir 005/irr-vs-roi ok:003 004 n:pending f:step
+261118 s01 c:003-005 x:005/payback-relapse(x365) 004/npv-as-ret 005/interp-dir 005/irr-vs-roi ok:003 004 n:done f:step
